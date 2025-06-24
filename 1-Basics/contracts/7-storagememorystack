@@ -1,0 +1,5 @@
+storage --> data permamnently stored hota hai blockchain mai 
+too costly hai gas 
+
+memory --> temporray store hota hai evm  mai and after execution discard hojata hai 
+stack --> temporray store hota hai data like call stack  and isme fees kam lagti hai 
