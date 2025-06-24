@@ -97,3 +97,12 @@ contract calculator {
         return currentValue;
     }
 }
+
+
+
+
+
+
+
+
+
