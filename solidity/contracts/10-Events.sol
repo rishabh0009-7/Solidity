@@ -24,4 +24,4 @@ contract EventPractice {
     function transfer(address to, uint256 value) public {
         emit Transfer(msg.sender, to, value);
     }
-}
+}`
