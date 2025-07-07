@@ -23,13 +23,13 @@ mapping(address account =>mapping(address sender => uint )) public allowance ;
 
 
 constructor (){
-    owner = msg.sender
+    owner = msg.sender;
 
 }
 
 
-function mintTo(address to , uint 32 amount ) public {
-    require(msg.sender === owner )
+function mintTo(address to , uint32 amount ) public {
+    require(msg.sender === owner );
     balances[to] += amount ;
     supply +=amount ;
 
@@ -86,3 +86,5 @@ function  transferFrom(address from , address to , uint amount ) public{
 
     
 }
+
+
